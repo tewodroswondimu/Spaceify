@@ -15,6 +15,8 @@
 		18AD3A611ADA169400C64571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AD3A601ADA169400C64571 /* Images.xcassets */; };
 		18AD3A641ADA169400C64571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AD3A621ADA169400C64571 /* LaunchScreen.xib */; };
 		18AD3A701ADA169400C64571 /* SpaceifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A6F1ADA169400C64571 /* SpaceifyTests.m */; };
+		18AD3A7B1ADA176F00C64571 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A7A1ADA176F00C64571 /* CollectionViewCell.m */; };
+		18AD3A801ADA1B2900C64571 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A7F1ADA1B2900C64571 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		18AD3A691ADA169400C64571 /* SpaceifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AD3A6E1ADA169400C64571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AD3A6F1ADA169400C64571 /* SpaceifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceifyTests.m; sourceTree = "<group>"; };
+		18AD3A791ADA176F00C64571 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		18AD3A7A1ADA176F00C64571 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		18AD3A7E1ADA1B2900C64571 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		18AD3A7F1ADA1B2900C64571 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				18AD3A551ADA169400C64571 /* AppDelegate.m */,
 				18AD3A5A1ADA169400C64571 /* ViewController.h */,
 				18AD3A5B1ADA169400C64571 /* ViewController.m */,
+				18AD3A791ADA176F00C64571 /* CollectionViewCell.h */,
+				18AD3A7A1ADA176F00C64571 /* CollectionViewCell.m */,
+				18AD3A7E1ADA1B2900C64571 /* DetailViewController.h */,
+				18AD3A7F1ADA1B2900C64571 /* DetailViewController.m */,
 				18AD3A5D1ADA169400C64571 /* Main.storyboard */,
 				18AD3A601ADA169400C64571 /* Images.xcassets */,
 				18AD3A621ADA169400C64571 /* LaunchScreen.xib */,
@@ -223,9 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AD3A561ADA169400C64571 /* AppDelegate.m in Sources */,
+				18AD3A7B1ADA176F00C64571 /* CollectionViewCell.m in Sources */,
 				18AD3A591ADA169400C64571 /* Spaceify.xcdatamodeld in Sources */,
 				18AD3A5C1ADA169400C64571 /* ViewController.m in Sources */,
 				18AD3A531ADA169400C64571 /* main.m in Sources */,
+				18AD3A801ADA1B2900C64571 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
