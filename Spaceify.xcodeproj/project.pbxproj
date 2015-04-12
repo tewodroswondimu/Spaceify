@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AD3A531ADA169400C64571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A521ADA169400C64571 /* main.m */; };
+		18AD3A561ADA169400C64571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A551ADA169400C64571 /* AppDelegate.m */; };
+		18AD3A591ADA169400C64571 /* Spaceify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A571ADA169400C64571 /* Spaceify.xcdatamodeld */; };
+		18AD3A5C1ADA169400C64571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A5B1ADA169400C64571 /* ViewController.m */; };
+		18AD3A5F1ADA169400C64571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD3A5D1ADA169400C64571 /* Main.storyboard */; };
+		18AD3A611ADA169400C64571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AD3A601ADA169400C64571 /* Images.xcassets */; };
+		18AD3A641ADA169400C64571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AD3A621ADA169400C64571 /* LaunchScreen.xib */; };
+		18AD3A701ADA169400C64571 /* SpaceifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A6F1ADA169400C64571 /* SpaceifyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AD3A6A1ADA169400C64571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AD3A451ADA169300C64571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AD3A4C1ADA169300C64571;
+			remoteInfo = Spaceify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18AD3A4D1ADA169400C64571 /* Spaceify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spaceify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AD3A511ADA169400C64571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AD3A521ADA169400C64571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18AD3A541ADA169400C64571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18AD3A551ADA169400C64571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18AD3A581ADA169400C64571 /* Spaceify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spaceify.xcdatamodel; sourceTree = "<group>"; };
+		18AD3A5A1ADA169400C64571 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18AD3A5B1ADA169400C64571 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18AD3A5E1ADA169400C64571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AD3A601ADA169400C64571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18AD3A631ADA169400C64571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18AD3A691ADA169400C64571 /* SpaceifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AD3A6E1ADA169400C64571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AD3A6F1ADA169400C64571 /* SpaceifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceifyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AD3A4A1ADA169300C64571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD3A661ADA169400C64571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AD3A441ADA169300C64571 = {
+			isa = PBXGroup;
+			children = (
+				18AD3A4F1ADA169400C64571 /* Spaceify */,
+				18AD3A6C1ADA169400C64571 /* SpaceifyTests */,
+				18AD3A4E1ADA169400C64571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AD3A4E1ADA169400C64571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AD3A4D1ADA169400C64571 /* Spaceify.app */,
+				18AD3A691ADA169400C64571 /* SpaceifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AD3A4F1ADA169400C64571 /* Spaceify */ = {
+			isa = PBXGroup;
+			children = (
+				18AD3A541ADA169400C64571 /* AppDelegate.h */,
+				18AD3A551ADA169400C64571 /* AppDelegate.m */,
+				18AD3A5A1ADA169400C64571 /* ViewController.h */,
+				18AD3A5B1ADA169400C64571 /* ViewController.m */,
+				18AD3A5D1ADA169400C64571 /* Main.storyboard */,
+				18AD3A601ADA169400C64571 /* Images.xcassets */,
+				18AD3A621ADA169400C64571 /* LaunchScreen.xib */,
+				18AD3A571ADA169400C64571 /* Spaceify.xcdatamodeld */,
+				18AD3A501ADA169400C64571 /* Supporting Files */,
+			);
+			path = Spaceify;
+			sourceTree = "<group>";
+		};
+		18AD3A501ADA169400C64571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AD3A511ADA169400C64571 /* Info.plist */,
+				18AD3A521ADA169400C64571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AD3A6C1ADA169400C64571 /* SpaceifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AD3A6F1ADA169400C64571 /* SpaceifyTests.m */,
+				18AD3A6D1ADA169400C64571 /* Supporting Files */,
+			);
+			path = SpaceifyTests;
+			sourceTree = "<group>";
+		};
+		18AD3A6D1ADA169400C64571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AD3A6E1ADA169400C64571 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AD3A4C1ADA169300C64571 /* Spaceify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AD3A731ADA169400C64571 /* Build configuration list for PBXNativeTarget "Spaceify" */;
+			buildPhases = (
+				18AD3A491ADA169300C64571 /* Sources */,
+				18AD3A4A1ADA169300C64571 /* Frameworks */,
+				18AD3A4B1ADA169300C64571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spaceify;
+			productName = Spaceify;
+			productReference = 18AD3A4D1ADA169400C64571 /* Spaceify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18AD3A681ADA169400C64571 /* SpaceifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AD3A761ADA169400C64571 /* Build configuration list for PBXNativeTarget "SpaceifyTests" */;
+			buildPhases = (
+				18AD3A651ADA169400C64571 /* Sources */,
+				18AD3A661ADA169400C64571 /* Frameworks */,
+				18AD3A671ADA169400C64571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AD3A6B1ADA169400C64571 /* PBXTargetDependency */,
+			);
+			name = SpaceifyTests;
+			productName = SpaceifyTests;
+			productReference = 18AD3A691ADA169400C64571 /* SpaceifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AD3A451ADA169300C64571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Tewodros Wondimu";
+				TargetAttributes = {
+					18AD3A4C1ADA169300C64571 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					18AD3A681ADA169400C64571 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 18AD3A4C1ADA169300C64571;
+					};
+				};
+			};
+			buildConfigurationList = 18AD3A481ADA169300C64571 /* Build configuration list for PBXProject "Spaceify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AD3A441ADA169300C64571;
+			productRefGroup = 18AD3A4E1ADA169400C64571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AD3A4C1ADA169300C64571 /* Spaceify */,
+				18AD3A681ADA169400C64571 /* SpaceifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AD3A4B1ADA169300C64571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD3A5F1ADA169400C64571 /* Main.storyboard in Resources */,
+				18AD3A641ADA169400C64571 /* LaunchScreen.xib in Resources */,
+				18AD3A611ADA169400C64571 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD3A671ADA169400C64571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AD3A491ADA169300C64571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD3A561ADA169400C64571 /* AppDelegate.m in Sources */,
+				18AD3A591ADA169400C64571 /* Spaceify.xcdatamodeld in Sources */,
+				18AD3A5C1ADA169400C64571 /* ViewController.m in Sources */,
+				18AD3A531ADA169400C64571 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD3A651ADA169400C64571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD3A701ADA169400C64571 /* SpaceifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AD3A6B1ADA169400C64571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AD3A4C1ADA169300C64571 /* Spaceify */;
+			targetProxy = 18AD3A6A1ADA169400C64571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18AD3A5D1ADA169400C64571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AD3A5E1ADA169400C64571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AD3A621ADA169400C64571 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AD3A631ADA169400C64571 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AD3A711ADA169400C64571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18AD3A721ADA169400C64571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AD3A741ADA169400C64571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spaceify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18AD3A751ADA169400C64571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spaceify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18AD3A771ADA169400C64571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpaceifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spaceify.app/Spaceify";
+			};
+			name = Debug;
+		};
+		18AD3A781ADA169400C64571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpaceifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spaceify.app/Spaceify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AD3A481ADA169300C64571 /* Build configuration list for PBXProject "Spaceify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD3A711ADA169400C64571 /* Debug */,
+				18AD3A721ADA169400C64571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AD3A731ADA169400C64571 /* Build configuration list for PBXNativeTarget "Spaceify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD3A741ADA169400C64571 /* Debug */,
+				18AD3A751ADA169400C64571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AD3A761ADA169400C64571 /* Build configuration list for PBXNativeTarget "SpaceifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD3A771ADA169400C64571 /* Debug */,
+				18AD3A781ADA169400C64571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18AD3A571ADA169400C64571 /* Spaceify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18AD3A581ADA169400C64571 /* Spaceify.xcdatamodel */,
+			);
+			currentVersion = 18AD3A581ADA169400C64571 /* Spaceify.xcdatamodel */;
+			path = Spaceify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18AD3A451ADA169300C64571 /* Project object */;
+}
