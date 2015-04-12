@@ -17,6 +17,17 @@
 		18AD3A701ADA169400C64571 /* SpaceifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A6F1ADA169400C64571 /* SpaceifyTests.m */; };
 		18AD3A7B1ADA176F00C64571 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A7A1ADA176F00C64571 /* CollectionViewCell.m */; };
 		18AD3A801ADA1B2900C64571 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A7F1ADA1B2900C64571 /* DetailViewController.m */; };
+		18AD3A841ADA1DD100C64571 /* CasetifySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18AD3A821ADA1DD100C64571 /* CasetifySDK.bundle */; };
+		18AD3A851ADA1DD100C64571 /* CasetifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A831ADA1DD100C64571 /* CasetifySDK.framework */; };
+		18AD3A871ADA1E2100C64571 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A861ADA1E2100C64571 /* Accelerate.framework */; };
+		18AD3A891ADA1E2600C64571 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A881ADA1E2600C64571 /* CoreImage.framework */; };
+		18AD3A8B1ADA1E2A00C64571 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A8A1ADA1E2A00C64571 /* ImageIO.framework */; };
+		18AD3A8D1ADA1E3000C64571 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A8C1ADA1E3000C64571 /* MessageUI.framework */; };
+		18AD3A8F1ADA1E3700C64571 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A8E1ADA1E3700C64571 /* MobileCoreServices.framework */; };
+		18AD3A911ADA1E3D00C64571 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A901ADA1E3D00C64571 /* QuartzCore.framework */; };
+		18AD3A931ADA1E4200C64571 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A921ADA1E4200C64571 /* Social.framework */; };
+		18AD3A951ADA1E4800C64571 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A941ADA1E4800C64571 /* SystemConfiguration.framework */; };
+		18AD3A971ADA1E4F00C64571 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A961ADA1E4F00C64571 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,17 @@
 		18AD3A7A1ADA176F00C64571 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		18AD3A7E1ADA1B2900C64571 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		18AD3A7F1ADA1B2900C64571 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		18AD3A821ADA1DD100C64571 /* CasetifySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CasetifySDK.bundle; sourceTree = "<group>"; };
+		18AD3A831ADA1DD100C64571 /* CasetifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CasetifySDK.framework; sourceTree = "<group>"; };
+		18AD3A861ADA1E2100C64571 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		18AD3A881ADA1E2600C64571 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		18AD3A8A1ADA1E2A00C64571 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		18AD3A8C1ADA1E3000C64571 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		18AD3A8E1ADA1E3700C64571 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18AD3A901ADA1E3D00C64571 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18AD3A921ADA1E4200C64571 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		18AD3A941ADA1E4800C64571 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18AD3A961ADA1E4F00C64571 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AD3A931ADA1E4200C64571 /* Social.framework in Frameworks */,
+				18AD3A971ADA1E4F00C64571 /* Twitter.framework in Frameworks */,
+				18AD3A951ADA1E4800C64571 /* SystemConfiguration.framework in Frameworks */,
+				18AD3A911ADA1E3D00C64571 /* QuartzCore.framework in Frameworks */,
+				18AD3A8F1ADA1E3700C64571 /* MobileCoreServices.framework in Frameworks */,
+				18AD3A8D1ADA1E3000C64571 /* MessageUI.framework in Frameworks */,
+				18AD3A8B1ADA1E2A00C64571 /* ImageIO.framework in Frameworks */,
+				18AD3A891ADA1E2600C64571 /* CoreImage.framework in Frameworks */,
+				18AD3A871ADA1E2100C64571 /* Accelerate.framework in Frameworks */,
+				18AD3A851ADA1DD100C64571 /* CasetifySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +103,15 @@
 		18AD3A441ADA169300C64571 = {
 			isa = PBXGroup;
 			children = (
+				18AD3A961ADA1E4F00C64571 /* Twitter.framework */,
+				18AD3A941ADA1E4800C64571 /* SystemConfiguration.framework */,
+				18AD3A921ADA1E4200C64571 /* Social.framework */,
+				18AD3A901ADA1E3D00C64571 /* QuartzCore.framework */,
+				18AD3A8E1ADA1E3700C64571 /* MobileCoreServices.framework */,
+				18AD3A8C1ADA1E3000C64571 /* MessageUI.framework */,
+				18AD3A8A1ADA1E2A00C64571 /* ImageIO.framework */,
+				18AD3A881ADA1E2600C64571 /* CoreImage.framework */,
+				18AD3A861ADA1E2100C64571 /* Accelerate.framework */,
 				18AD3A4F1ADA169400C64571 /* Spaceify */,
 				18AD3A6C1ADA169400C64571 /* SpaceifyTests */,
 				18AD3A4E1ADA169400C64571 /* Products */,
@@ -89,6 +130,7 @@
 		18AD3A4F1ADA169400C64571 /* Spaceify */ = {
 			isa = PBXGroup;
 			children = (
+				18AD3A811ADA1DC600C64571 /* Frameworks */,
 				18AD3A541ADA169400C64571 /* AppDelegate.h */,
 				18AD3A551ADA169400C64571 /* AppDelegate.m */,
 				18AD3A5A1ADA169400C64571 /* ViewController.h */,
@@ -130,6 +172,15 @@
 				18AD3A6E1ADA169400C64571 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AD3A811ADA1DC600C64571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18AD3A821ADA1DD100C64571 /* CasetifySDK.bundle */,
+				18AD3A831ADA1DD100C64571 /* CasetifySDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AD3A841ADA1DD100C64571 /* CasetifySDK.bundle in Resources */,
 				18AD3A5F1ADA169400C64571 /* Main.storyboard in Resources */,
 				18AD3A641ADA169400C64571 /* LaunchScreen.xib in Resources */,
 				18AD3A611ADA169400C64571 /* Images.xcassets in Resources */,
@@ -359,6 +411,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Spaceify",
+				);
 				INFOPLIST_FILE = Spaceify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Spaceify",
+				);
 				INFOPLIST_FILE = Spaceify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

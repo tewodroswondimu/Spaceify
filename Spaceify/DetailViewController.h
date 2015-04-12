@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CasetifySDK/CasetifySDK.h>
 
 @interface DetailViewController : UIViewController
 

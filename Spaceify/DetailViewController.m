@@ -8,7 +8,7 @@
 
 #import "DetailViewController.h"
 
-@interface DetailViewController ()
+@interface DetailViewController () <CasetifySDKDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *printImageView;
 
 @end
@@ -26,14 +26,28 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+- (IBAction)printButtonTapped:(UIButton *)sender {
+    [CTFManager setDelegate:self];
+    [CTFManager setClientID:@"MyAppClientIDxxxxxxx"];
+    [CTFManager setClientSecret:@"MyAppClientSecretxxxxxxxxxxxxxxxxxxxxxxx"];
+    [CTFManager setRedirectURI:@"http://xxxxxxxxxxx.com"];
+    [CTFManager setSkipMoveAndScale:NO];
+    [CTFManager setCaseName:@"Designed with MyApp"];
+    [CTFManager setImage:self.highResolutionImage];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    UIViewController *vc = [CTGManager newCasetifyViewController];
+
+    [self presentViewController:vc animated:YES completion:nil];
 }
-*/
+
+- (void)casetifySDKOrderCompleted
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)casetifySDKUserCancelled
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end
