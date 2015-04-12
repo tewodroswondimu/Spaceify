@@ -94,7 +94,7 @@
     arp8.spaceTelescope = @"Hubble";
     arp8.spaceDescription = @"This image of a pair of interacting galaxies called Arp 273 was released to celebrate the 21st anniversary of the launch of the NASA/ESA Hubble Space Telescope. The distorted shape of the larger of the two galaxies shows signs of tidal interactions with the smaller of the two. It is thought that the smaller galaxy has actually passed through the larger one.";
 
-    self.spaceObjectsArray = [NSArray arrayWithObjects:pillarsOfCreation, butterfly, arp, arp2, arp3, arp4, arp5, arp6, arp7, arp8, nil];
+    self.spaceObjectsArray = [NSArray arrayWithObjects:arp4, butterfly, arp, arp2, arp3, pillarsOfCreation, arp5, arp6, arp7, arp8, nil];
 }
 
 - (void)didReceiveMemoryWarning {
