@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Choose an Image -->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -18,22 +18,23 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3cS-PN-svy">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AHc-ji-1H2">
-                                    <size key="itemSize" width="110" height="110"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="AHc-ji-1H2">
+                                    <size key="itemSize" width="142" height="142"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="15" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HubbleImagesCell" id="14B-Id-bQ7" customClass="CollectionViewCell">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="200" verticalHuggingPriority="200" reuseIdentifier="HubbleImagesCell" id="14B-Id-bQ7" customClass="CollectionViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="142" height="142"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sCY-Kz-8UY">
-                                                    <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="142" height="142"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -52,13 +53,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3cS-PN-svy" secondAttribute="bottom" id="0Bu-mk-n3d"/>
+                            <constraint firstItem="3cS-PN-svy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="0mg-Vh-Frb"/>
+                            <constraint firstItem="3cS-PN-svy" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="1le-og-guD"/>
                             <constraint firstAttribute="trailing" secondItem="3cS-PN-svy" secondAttribute="trailing" id="H5Y-0k-P0j"/>
                             <constraint firstItem="3cS-PN-svy" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Nwl-ky-SsT"/>
+                            <constraint firstAttribute="trailing" secondItem="3cS-PN-svy" secondAttribute="trailing" id="gim-zu-nRN"/>
                             <constraint firstItem="3cS-PN-svy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tuT-Ve-A06"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3cS-PN-svy" secondAttribute="bottom" id="vPZ-tn-cF6"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="w4w-dF-kVd"/>
+                    <navigationItem key="navigationItem" title="Choose an Image " id="w4w-dF-kVd"/>
+                    <connections>
+                        <outlet property="collectionView" destination="3cS-PN-svy" id="FtC-vG-pfD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,11 +84,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lTj-pZ-v9E">
-                                <rect key="frame" x="16" y="72" width="288" height="288"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lTj-pZ-v9E">
+                                <rect key="frame" x="35" y="90" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="YYc-TF-5LV"/>
+                                    <constraint firstAttribute="width" constant="250" id="fin-HB-cf3"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xm1-Tj-c7v">
-                                <rect key="frame" x="137" y="400" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xm1-Tj-c7v">
+                                <rect key="frame" x="124" y="506" width="72" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="4Yq-TD-JKF"/>
+                                    <constraint firstAttribute="height" constant="42" id="Egm-2e-cfN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Print">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -88,12 +105,58 @@
                                     <action selector="printButtonTapped:" destination="yD1-xk-ped" eventType="touchUpInside" id="6RT-eb-10K"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double Cluster" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gap-2m-2UM">
+                                <rect key="frame" x="16" y="355" width="288" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="2j8-xo-jTA"/>
+                                    <constraint firstAttribute="height" constant="34" id="ZlN-8f-eIN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Cin-8u-7aQ">
+                                <rect key="frame" x="16" y="413" width="288" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="CsB-ad-uwc"/>
+                                    <constraint firstAttribute="width" constant="288" id="c5z-Ps-RsU"/>
+                                </constraints>
+                                <string key="text">Located in the Large Magellanic Cloud, one of our neighbouring dwarf galaxies, this young globular-like star cluster is surrounded by a pattern of filamentary nebulosity that is thought to have been created during supernova blasts. It consists of a main globular cluster in the centre and a younger, smaller cluster, seen below and to the right, composed of extremely hot, blue stars and fainter, red T-Tauri stars. This wide variety of stars allows a thorough study of star formation processes.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hubble Telescope" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMX-l1-tGI">
+                                <rect key="frame" x="16" y="390" width="288" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Tjc-yW-fSL"/>
+                                    <constraint firstAttribute="width" constant="288" id="ZXt-3q-uOG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Cin-8u-7aQ" secondAttribute="centerX" id="1sl-bv-7vi"/>
+                            <constraint firstItem="aMX-l1-tGI" firstAttribute="top" secondItem="Gap-2m-2UM" secondAttribute="bottom" constant="1" id="45L-Ls-qly"/>
+                            <constraint firstAttribute="centerX" secondItem="Gap-2m-2UM" secondAttribute="centerX" id="KBa-ar-BPX"/>
+                            <constraint firstAttribute="centerX" secondItem="Xm1-Tj-c7v" secondAttribute="centerX" id="Mh4-32-QkD"/>
+                            <constraint firstItem="lTj-pZ-v9E" firstAttribute="top" secondItem="0Ox-a0-5FU" secondAttribute="bottom" constant="26" id="ONd-Pi-AGT"/>
+                            <constraint firstItem="Cin-8u-7aQ" firstAttribute="top" secondItem="aMX-l1-tGI" secondAttribute="bottom" constant="8" id="Yg9-kc-b2L"/>
+                            <constraint firstAttribute="centerX" secondItem="aMX-l1-tGI" secondAttribute="centerX" id="lq1-nE-lnq"/>
+                            <constraint firstItem="Gap-2m-2UM" firstAttribute="top" secondItem="lTj-pZ-v9E" secondAttribute="bottom" constant="15" id="mP8-5b-n9Q"/>
+                            <constraint firstAttribute="centerX" secondItem="lTj-pZ-v9E" secondAttribute="centerX" id="tnT-Ig-06I"/>
+                            <constraint firstItem="Xm1-Tj-c7v" firstAttribute="top" secondItem="Cin-8u-7aQ" secondAttribute="bottom" constant="13" id="urH-DK-FZb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yUZ-JP-xwQ"/>
                     <connections>
+                        <outlet property="nickName" destination="Gap-2m-2UM" id="faN-b5-CtA"/>
                         <outlet property="printImageView" destination="lTj-pZ-v9E" id="FDl-00-nZ6"/>
+                        <outlet property="spaceDescription" destination="Cin-8u-7aQ" id="1TO-xn-yjj"/>
+                        <outlet property="spaceName" destination="aMX-l1-tGI" id="wUw-z8-TPe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5mC-7H-65h" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -105,9 +168,14 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zzi-ri-Ab6" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EHP-1n-Wp6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="EHP-1n-Wp6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

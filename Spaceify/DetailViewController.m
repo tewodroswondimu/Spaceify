@@ -10,6 +10,9 @@
 
 @interface DetailViewController () <CasetifySDKDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *printImageView;
+@property (weak, nonatomic) IBOutlet UILabel *nickName;
+@property (weak, nonatomic) IBOutlet UILabel *spaceName;
+@property (weak, nonatomic) IBOutlet UITextView *spaceDescription;
 
 @end
 
@@ -18,7 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.printImageView.image = self.highResolutionImage;
+    self.printImageView.image = [UIImage imageNamed:self.spaceObject.spaceFileName];
+    self.spaceDescription.text = self.spaceObject.spaceDescription;
+    self.spaceName.text = self.spaceObject.spaceName;
+    self.nickName.text = self.spaceObject.spaceNickName;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,7 +39,7 @@
     [CTFManager setRedirectURI:@"http://xxxxxxxxxxx.com"];
     [CTFManager setSkipMoveAndScale:NO];
     [CTFManager setCaseName:@"Designed with MyApp"];
-    [CTFManager setImage:self.highResolutionImage];
+    [CTFManager setImage:[UIImage imageNamed:self.spaceObject.spaceFileName]];
 
     UIViewController *vc = [CTGManager newCasetifyViewController];
 

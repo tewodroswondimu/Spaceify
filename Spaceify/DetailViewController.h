@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <CasetifySDK/CasetifySDK.h>
+#import "Space.h"
 
 @interface DetailViewController : UIViewController
 
-@property UIImage *highResolutionImage; 
+@property UIImage *highResolutionImage;
+@property Space *spaceObject;
 
 @end

@@ -28,6 +28,7 @@
 		18AD3A931ADA1E4200C64571 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A921ADA1E4200C64571 /* Social.framework */; };
 		18AD3A951ADA1E4800C64571 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A941ADA1E4800C64571 /* SystemConfiguration.framework */; };
 		18AD3A971ADA1E4F00C64571 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD3A961ADA1E4F00C64571 /* Twitter.framework */; };
+		18AD3A9A1ADB08F300C64571 /* Space.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3A991ADB08F300C64571 /* Space.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		18AD3A921ADA1E4200C64571 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		18AD3A941ADA1E4800C64571 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		18AD3A961ADA1E4F00C64571 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		18AD3A981ADB08F300C64571 /* Space.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Space.h; sourceTree = "<group>"; };
+		18AD3A991ADB08F300C64571 /* Space.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Space.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				18AD3A7A1ADA176F00C64571 /* CollectionViewCell.m */,
 				18AD3A7E1ADA1B2900C64571 /* DetailViewController.h */,
 				18AD3A7F1ADA1B2900C64571 /* DetailViewController.m */,
+				18AD3A981ADB08F300C64571 /* Space.h */,
+				18AD3A991ADB08F300C64571 /* Space.m */,
 				18AD3A5D1ADA169400C64571 /* Main.storyboard */,
 				18AD3A601ADA169400C64571 /* Images.xcassets */,
 				18AD3A621ADA169400C64571 /* LaunchScreen.xib */,
@@ -289,6 +294,7 @@
 				18AD3A591ADA169400C64571 /* Spaceify.xcdatamodeld in Sources */,
 				18AD3A5C1ADA169400C64571 /* ViewController.m in Sources */,
 				18AD3A531ADA169400C64571 /* main.m in Sources */,
+				18AD3A9A1ADB08F300C64571 /* Space.m in Sources */,
 				18AD3A801ADA1B2900C64571 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
