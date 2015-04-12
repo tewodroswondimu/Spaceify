@@ -50,7 +50,51 @@
     arp2.spaceFileName = @"NGC3603";
     arp2.spaceTelescope = @"Hubble";
     arp2.spaceDescription = @"This image of a pair of interacting galaxies called Arp 273 was released to celebrate the 21st anniversary of the launch of the NASA/ESA Hubble Space Telescope. The distorted shape of the larger of the two galaxies shows signs of tidal interactions with the smaller of the two. It is thought that the smaller galaxy has actually passed through the larger one.";
-    self.spaceObjectsArray = [NSArray arrayWithObjects:pillarsOfCreation, butterfly, arp, arp2, nil];
+
+    Space *arp3 = [Space new];
+    arp3.spaceName = @"Barnard 33";
+    arp3.spaceNickName = @"Horsehead Nebula";
+    arp3.spaceFileName = @"Barnard33";
+    arp3.spaceTelescope = @"Hubble";
+    arp3.spaceDescription = @"This image of a pair of interacting galaxies called Arp 273 was released to celebrate the 21st anniversary of the launch of the NASA/ESA Hubble Space Telescope. The distorted shape of the larger of the two galaxies shows signs of tidal interactions with the smaller of the two. It is thought that the smaller galaxy has actually passed through the larger one.";
+
+    Space *arp4 = [Space new];
+    arp4.spaceName = @"M 104";
+    arp4.spaceNickName = @"Sombrero Galaxy";
+    arp4.spaceFileName = @"M104";
+    arp4.spaceTelescope = @"Hubble";
+    arp4.spaceDescription = @"This image of a pair of interacting galaxies called Arp 273 was released to celebrate the 21st anniversary of the launch of the NASA/ESA Hubble Space Telescope. The distorted shape of the larger of the two galaxies shows signs of tidal interactions with the smaller of the two. It is thought that the smaller galaxy has actually passed through the larger one.";
+
+
+    Space *arp5 = [Space new];
+    arp5.spaceName = @"Messier 1";
+    arp5.spaceNickName = @"Crab Nebula";
+    arp5.spaceFileName = @"Messier1";
+    arp5.spaceTelescope = @"Hubble";
+    arp5.spaceDescription = @"This image of a pair of interacting galaxies called Arp 273 was released to celebrate the 21st anniversary of the launch of the NASA/ESA Hubble Space Telescope. The distorted shape of the larger of the two galaxies shows signs of tidal interactions with the smaller of the two. It is thought that the smaller galaxy has actually passed through the larger one.";
+
+    Space *arp6 = [Space new];
+    arp6.spaceName = @"Messier 16";
+    arp6.spaceNickName = @"Eagle Nebula";
+    arp6.spaceFileName = @"Messier16";
+    arp6.spaceTelescope = @"Hubble";
+    arp6.spaceDescription = @"This image of a pair of interacting galaxies called Arp 273 was released to celebrate the 21st anniversary of the launch of the NASA/ESA Hubble Space Telescope. The distorted shape of the larger of the two galaxies shows signs of tidal interactions with the smaller of the two. It is thought that the smaller galaxy has actually passed through the larger one.";
+
+    Space *arp7 = [Space new];
+    arp7.spaceName = @"NGC2264";
+    arp7.spaceNickName = @"Cone Nebula";
+    arp7.spaceFileName = @"NGC2264";
+    arp7.spaceTelescope = @"Hubble";
+    arp7.spaceDescription = @"This image of a pair of interacting galaxies called Arp 273 was released to celebrate the 21st anniversary of the launch of the NASA/ESA Hubble Space Telescope. The distorted shape of the larger of the two galaxies shows signs of tidal interactions with the smaller of the two. It is thought that the smaller galaxy has actually passed through the larger one.";
+
+    Space *arp8 = [Space new];
+    arp8.spaceName = @"NGC 1316";
+    arp8.spaceNickName = @"Cosmic Dust Bunnies";
+    arp8.spaceFileName = @"NGC1316";
+    arp8.spaceTelescope = @"Hubble";
+    arp8.spaceDescription = @"This image of a pair of interacting galaxies called Arp 273 was released to celebrate the 21st anniversary of the launch of the NASA/ESA Hubble Space Telescope. The distorted shape of the larger of the two galaxies shows signs of tidal interactions with the smaller of the two. It is thought that the smaller galaxy has actually passed through the larger one.";
+
+    self.spaceObjectsArray = [NSArray arrayWithObjects:pillarsOfCreation, butterfly, arp, arp2, arp3, arp4, arp5, arp6, arp7, arp8, nil];
 }
 
 - (void)didReceiveMemoryWarning {
